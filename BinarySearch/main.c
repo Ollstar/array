@@ -56,7 +56,7 @@ Range binarySearch(Range range, int key, int a[], int min, int max){
             range.numberOccurance = 1;
             while (a[midIndex +1] == key) {
                 midIndex++;
-                range.numberOccurance++;
+                range.numberOccurance++;f
             }
             return range;
         }
